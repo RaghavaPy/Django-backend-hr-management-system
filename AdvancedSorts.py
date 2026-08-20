@@ -182,7 +182,8 @@ def bucket_integers(arr):
         results.extend(bucket)
     return results
 arr = [42, 5, 18, 30, 11]
-print(bucket_integers(arr))        
+sorted_arr=bucket_integers(arr)
+print(f"Final bucket sort array is : {sorted_arr}")    
            
     
    
