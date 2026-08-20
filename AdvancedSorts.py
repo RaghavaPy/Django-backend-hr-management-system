@@ -165,7 +165,25 @@ def bucket_sort(arr):
 arr = [0.42, 0.32, 0.23, 0.52, 0.25, 0.47, 0.51] 
 print(bucket_sort(arr))     
 
-       
+#bucket sort for the arbitary numbers
+def bucket_integers(arr):
+    if len(arr)==0:
+        return arr
+    n=len(arr)
+    max_value=max(arr)
+    min_value=min(arr)
+    buckets=[[] for i in range(n)]
+    bucket_size=(max_value-min_value)/n+1
+    for num in arr:
+        index=int((num-min_value)/bucket_size)
+        buckets[index].append(num)
+    results=[]
+    for bucket in buckets:
+        results.extend(bucket)
+    return results
+arr = [42, 5, 18, 30, 11]
+print(bucket_integers(arr))        
+           
     
    
             
