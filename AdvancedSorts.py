@@ -169,6 +169,7 @@ print(bucket_sort(arr))
 def bucket_integers(arr):
     if len(arr)==0:
         return arr
+    #lenght of the array
     n=len(arr)
     max_value=max(arr)
     min_value=min(arr)
