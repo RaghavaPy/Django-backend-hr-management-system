@@ -174,6 +174,7 @@ def bucket_integers(arr):
     max_value=max(arr)
     min_value=min(arr)
     buckets=[[] for i in range(n)]
+    #bucket size of the array
     bucket_size=(max_value-min_value)/n+1
     for num in arr:
         index=int((num-min_value)/bucket_size)
