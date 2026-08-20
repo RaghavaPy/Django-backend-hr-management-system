@@ -165,7 +165,7 @@ def bucket_sort(arr):
 arr = [0.42, 0.32, 0.23, 0.52, 0.25, 0.47, 0.51] 
 print(bucket_sort(arr))     
 
-#bucket sort for the arbitary numbers
+#bucket sort for the arbitary numbers/
 def bucket_integers(arr):
     if len(arr)==0:
         return arr
