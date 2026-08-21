@@ -185,9 +185,9 @@ def bucket_integers(arr):
     return results
 arr = [42, 5, 18, 30, 11]
 sorted_arr=bucket_integers(arr)
-print(f"Final bucket sort array is of in the main: {sorted_arr}")    
+print(f"Final bucket sort array is of in the main for the sort: {sorted_arr}")    
 
-#the above code is related to the linked  list
+#this the use of cherry pick command in git 
            
     
    
