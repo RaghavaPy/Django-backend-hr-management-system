@@ -186,8 +186,6 @@ def bucket_integers(arr):
 arr = [42, 5, 18, 30, 11]
 sorted_arr=bucket_integers(arr)
 print(f"Final bucket sort array is of in the main: {sorted_arr}")    
-
-#the above code is related to the linked  list
            
     
    
