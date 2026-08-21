@@ -1,3 +1,5 @@
+import heapq
+
 class Node:
     def __init__(self,data):
         self.data=data
@@ -199,7 +201,6 @@ dq.display()
 dq.dequee_end()
 dq.display() 
                   
-import heapq
 pq=[]
 heapq.heappush(pq,30)
 heapq.heappush(pq,10)
